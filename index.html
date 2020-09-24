@@ -1,0 +1,221 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- displays site properly based on user's device -->
+
+    <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="font-awesome-4.7.0/css/font-awesome.min.css">
+
+    <title>Frontend Mentor | Shortly URL shortening API Challenge</title>
+</head>
+
+<body>
+
+    <!--    HEADER BEGINS HERE    -->
+    <header>
+        <!--    nav section    -->
+        <nav>
+            <img src="images/logo.svg" alt="Shortly-Logo" class="logo">
+            <div class="nav-desktop">
+                <ul class="nav-group">
+                    <li class="nav-link"><a href="#">Features</a></li>
+                    <li class="nav-link"><a href="#"> Pricing</a></li>
+                    <li class="nav-link"><a href="#"> Resources</a></li>
+                </ul>
+
+                <ul class="user-accounts">
+                    <li class="nav-link"><a href="#">Login</a></li>
+                </ul>
+
+                <div class="nav-link btn btn-round" id="sign-up">
+                    <a href="#" id="sign-up">Sign Up</a>
+                </div>
+            </div>
+
+
+            <div class="nav-mobile">
+                <div class="nav-mobile__icon">
+                    <img src="images/icon-hamburger.svg" alt="" id="mobile-open" class="show">
+                    <img src="images/icon-close.svg" alt="" id="mobile-close" class="hide">
+                </div>
+
+                <div class="nav-mobile-links">
+                    <ul id="general menu">
+                        <li><a href="">Features</a></li>
+                        <li><a href="">Pricing</a></li>
+                        <li><a href="">Resources</a></li>
+                    </ul>
+
+                    <ul id="user-accounts-mobile">
+                        <li><a href="">Login</a></li>
+                        <a href="" class="btn btn-round">Sign Up</a>
+                    </ul>
+
+                </div>
+
+            </div>
+        </nav>
+        <!--    nav section    -->
+
+        <!--    header section    -->
+        <section class="header-section">
+            <img src="images/illustration-working.svg" alt="header-image" class="header-img">
+
+            <article class="header-text">
+                <h2 class="header-title">More than just <br> shorter links</h2>
+                <p class="header-subtitle">Build your brand’s recognition and get detailed insights
+                    on how your links are performing.</p>
+                <a href="#"><button class="btn btn-round">Get Started</button></a>
+            </article>
+        </section>
+        <!--    header section    -->
+    </header>
+    <!--    HEADER ENDS HERE    -->
+
+    <!--    REQUEST AND RESULT-FORM BEGINS HERE    -->
+    <section class="req-res">
+        <!--    form section    -->
+        <form action="" id="the-form">
+            <div class="form-contents">
+                <input type="text" name="" id="original-url-input" placeholder="Shorten a link here">
+                <button class="btn btn-rounded">Shorten It!</button>
+            </div>
+            <div class="error">
+                <p class="error-input error-text">Input cannot be empty</p>
+                <p class="error-url error-text">Please enter a valid link</p>
+            </div>
+        </form>
+
+        <!--    form section    -->
+
+        <!--    results section    -->
+        <section class="results">
+            <!-- <article class="result-card">
+                <p class="original-url">I am the original</p>
+                <p class="shortened-url">I was shortened</p>
+                <button class="btn btn-rounded" id = "copy-me">Copy</button>
+            </article> -->
+        </section>
+        <!--    results section    -->
+    </section>
+    <!--    REQUEST AND RESULT-FORM ENDS HERE    -->
+
+    <!--    MORE-INFO BEGINS HERE    -->
+    <section class="more-info">
+        <!--    more-info-title section    -->
+        <div class="more-info-title">
+            <h2 class="mi-title">
+                Advanced Statistics
+            </h2>
+
+            <p class="mi-subtitle">
+                Track how your links are performing across the web with our
+                advanced statistics dashboard.
+            </p>
+        </div>
+        <!--    more-info-title section    -->
+
+        <!--    cards section    -->
+        <div class="all-cards">
+            <article class="card" id="brand">
+                <img src="images/icon-brand-recognition.svg" alt="brand-recognition" class="card-img">
+                <h2 class="card-title">Brand Recognition</h2>
+                <p class="card-subtitle">Boost your brand recognition with each click. Generic links don’t
+                    mean a thing. Branded links help instil confidence in your content.</p>
+            </article>
+
+            <article class="card" id="detail">
+                <img src="images/icon-detailed-records.svg" alt="detailed-records" class="card-img">
+                <h2 class="card-title">Detailed Records</h2>
+                <p class="card-subtitle">Gain insights into who is clicking your links. Knowing when and where
+                    people engage with your content helps inform better decisions.</p>
+            </article>
+
+            <article class="card" id="custom">
+                <img src="images/icon-fully-customizable.svg" alt="fully-customisable" class="card-img">
+                <h2 class="card-title">Fully Customizable</h2>
+                <p class="card-subtitle"> Improve brand awareness and content discoverability through customizable
+                    links, supercharging audience engagement.</p>
+            </article>
+        </div>
+        <!--    cards section    -->
+    </section>
+    <!--    MORE-INFO ENDS HERE    -->
+
+    <!--    CTA BEGINS HERE    -->
+    <section class="cta">
+        <h2 class="cta-title">Boost your links today</h2>
+        <button class="btn btn-round">Get Started</button>
+    </section>
+    <!--    CTA ENDS HERE    -->
+
+    <!--    FOOTER BEGINS HERE    -->
+    <footer>
+        <!--    logo section    -->
+        <div class="footer-item">
+            <img src="images/logo.svg" alt="footer-logo" class="footer-logo">
+        </div>
+        <!--    logo section    -->
+
+        <!--    features section    -->
+        <div class="footer-item">
+            <ul>
+                <p class="footer-item-title">Features</p>
+                <li class="footer-item-nav"><a href="#">Link Shortening</a></li>
+                <li class="footer-item-nav"><a href="#">Branded Links</a></li>
+                <li class="footer-item-nav"><a href="#">Analytics</a></li>
+            </ul>
+        </div>
+        <!--    features section    -->
+
+        <!--    resources section    -->
+        <div class="footer-item">
+            <ul>
+                <p class="footer-item-title">Resources</p>
+                <li class="footer-item-nav"><a href="#">Blog</a></li>
+                <li class="footer-item-nav"><a href="#">Developers</a></li>
+                <li class="footer-item-nav"><a href="#">Support</a></li>
+            </ul>
+        </div>
+        <!--    resources section    -->
+
+        <!--    company section    -->
+        <div class="footer-item">
+            <ul>
+                <p class="footer-item-title">Company</p>
+                <li class="footer-item-nav"><a href="#">About</a></li>
+                <li class="footer-item-nav"><a href="#">Our Team</a></li>
+                <li class="footer-item-nav"><a href="#">Careers</a></li>
+                <li class="footer-item-nav"><a href="#">Contact</a></li>
+            </ul>
+        </div>
+        <!--    company section    -->
+
+        <!--    social section    -->
+        <div class="footer-item">
+            <ul class="icons">
+                <li class="icon-item"><i class="fa fa-facebook-official"></i></li>
+                <li class="icon-item"><i class="fa fa-twitter"></i></li>
+                <li class="icon-item"><i class="fa fa-pinterest"></i></li>
+                <li class="icon-item"><i class="fa fa-instagram"></i></li>
+            </ul>
+        </div>
+        <!--    social section    -->
+    </footer>
+    <!--    FOOTER ENDS HERE    -->
+</body>
+
+<script src="app.js"></script>
+
+</html>
+
+<!--STANDARD COMMENT FORMAT DOWN HERE-->
+<!--    HEADER BEGINS HERE    -->
+<!--    HEADER ENDS HERE    -->
+
+<!--    nav section    -->
+<!--    nav section    -->
