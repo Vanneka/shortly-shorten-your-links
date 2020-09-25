@@ -2,6 +2,11 @@
 
 ![Design preview for the Shortly URL shortening API coding challenge](./design/desktop-preview.jpg)
 
+
+### LIVE DEMO
+https://vanneka.github.io/shortly-shorten-your-links/
+
+
 ## Hi There! 👋
 This is my entry for the Frontend Mentor challenge
 
@@ -17,9 +22,6 @@ The `style-guide.md` file, contains the information for the color palette and fo
 2. Right click and click on `inspect element`
 
 3. Change device size from the top of browser to test responsiveness
-
-### LIVE DEMO
-https://vanneka.github.io/shortly-shorten-your-links/
 
 
 **Yay!!!** 🚀
