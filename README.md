@@ -18,4 +18,8 @@ The `style-guide.md` file, contains the information for the color palette and fo
 
 3. Change device size from the top of browser to test responsiveness
 
+### LIVE DEMO
+https://vanneka.github.io/shortly-shorten-your-links/
+
+
 **Yay!!!** 🚀
